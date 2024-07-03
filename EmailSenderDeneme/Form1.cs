@@ -34,7 +34,7 @@ namespace EmailSenderDeneme
             message.Subject = textBox2.Text;
             message.Body = textBox3.Text;
             client.Send(message);
-            Console.WriteLine("Mail gönderld...");
+            Console.WriteLine("Mail gönderildi...");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
